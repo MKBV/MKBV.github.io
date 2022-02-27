@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Mahmut Kapkic</title>
+    <link>http://127.0.0.1:8000/blog/</link>
+    <description>Recent content in Blog on Mahmut Kapkic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 26 Feb 2022 20:05:57 +0300</lastBuildDate>
+    
+	<atom:link href="http://127.0.0.1:8000/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chaos Game</title>
+      <link>http://127.0.0.1:8000/blog/caosgame/</link>
+      <pubDate>Sat, 26 Feb 2022 20:44:12 +0300</pubDate>
+      
+      <guid>http://127.0.0.1:8000/blog/caosgame/</guid>
+      <description>One day on youtube there was a video which name contains Chaos Game, and my love of superior math was amazed by the video.
+Processes mentioned on video:
+ Draw a shape. Pick a random point from the inside of the shape Pick a random corner and put a dot at the midpoint of these two points. Do the 3rd process for the new dot.  Writing the Script When writing these operations to the code, we need to define certain algorithms.</description>
+    </item>
+    
+    <item>
+      <title>The Tangerine</title>
+      <link>http://127.0.0.1:8000/blog/tangarine/</link>
+      <pubDate>Sat, 26 Feb 2022 20:05:46 +0300</pubDate>
+      
+      <guid>http://127.0.0.1:8000/blog/tangarine/</guid>
+      <description>I love tangerines.
+  This soundtrack from Tangerines (ka:მანდარინები) which is a Georgian movie.</description>
+    </item>
+    
+  </channel>
+</rss>

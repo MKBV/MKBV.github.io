@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://127.0.0.1:8000/blog/caosgame/</loc>
+    <lastmod>2022-02-26T20:44:12+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/tags/code/</loc>
+    <lastmod>2022-02-26T20:44:12+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/</loc>
+    <lastmod>2022-02-26T20:44:12+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/tags/</loc>
+    <lastmod>2022-02-26T20:44:12+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/blog/</loc>
+    <lastmod>2022-02-26T20:05:57+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/tags/blog/</loc>
+    <lastmod>2022-02-26T20:05:46+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/blog/tangarine/</loc>
+    <lastmod>2022-02-26T20:05:46+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/portfolio/</loc>
+  </url>
+  
+  <url>
+    <loc>http://127.0.0.1:8000/gallery/</loc>
+  </url>
+  
+</urlset>

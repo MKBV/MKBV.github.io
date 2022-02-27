@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<title>
+    Chaos Game - Mahmut Kapkic
+</title>
+
+
+<link rel="shortcut icon" href="/hehe.ico">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.e7ae210f604395453fd1d03078e5bb8c91d0faad1658ac9fe46194576fa929bd.css" integrity="sha256-564hD2BDlUU/0dAweOW7jJHQ&#43;q0WWKyf5GGUV2&#43;pKb0=" crossorigin="anonymous" media="screen">
+
+
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Chaos Game"/>
+<meta name="twitter:description" content="One day on youtube there was a video which name contains Chaos Game, and my love of superior math was amazed by the video.
+Processes mentioned on video:
+ Draw a shape. Pick a random point from the inside of the shape Pick a random corner and put a dot at the midpoint of these two points. Do the 3rd process for the new dot.  Writing the Script When writing these operations to the code, we need to define certain algorithms."/>
+
+<meta property="og:title" content="Chaos Game" />
+<meta property="og:description" content="One day on youtube there was a video which name contains Chaos Game, and my love of superior math was amazed by the video.
+Processes mentioned on video:
+ Draw a shape. Pick a random point from the inside of the shape Pick a random corner and put a dot at the midpoint of these two points. Do the 3rd process for the new dot.  Writing the Script When writing these operations to the code, we need to define certain algorithms." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://127.0.0.1:8000/blog/caosgame/" />
+<meta property="article:published_time" content="2022-02-26T20:44:12+03:00" />
+<meta property="article:modified_time" content="2022-02-26T20:44:12+03:00" />
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        Chaos Game
+        
+    </title>
+</head>
+
+<body>
+    
+    
+    <header class="wrap flex-container">
+        <h1>Chaos Game</h1>
+    </header>
+    
+    <main class="wrap">
+        
+        <article role="article" class="flex-container"><p>One day on youtube there was a video which name contains Chaos Game,
+and my love of superior math was amazed by <a href="https://youtu.be/IGlGvSXkRGI">the video</a>.</p>
+<p>Processes mentioned on video:</p>
+<ol>
+<li>Draw a shape.</li>
+<li>Pick a random point from the inside of the shape</li>
+<li>Pick a random corner and put a dot at the midpoint of these two points.</li>
+<li>Do the 3rd process for the new dot.</li>
+</ol>
+<h1 id="writing-the-script">Writing the Script</h1>
+<p>When writing these operations to the code, we need to define certain algorithms.</p>
+<ul>
+<li>How do we understand the random point was in the shape?</li>
+<li>When our shape has 4 or more corners, we need to dismiss some corners.* How?</li>
+</ul>
+<p>First of all, I use the turtle module for the graphical interface.<br>
+It&rsquo;s really simple and I can draw shapes by just use some coordinates.</p>
+<p>To pick a random point from inside of the shape, I use that algorithm:</p>
+<p><p style="text-align:center;">
+    <img src="/blog/img/caos_area.jpg" alt="Areas"  />
+</p>
+</p>
+<p>If we draw triangles with a random point and 2 corners, the area of triangles must be equal to the area of the shape.<br>
+Nor the point isn&rsquo;t inside of the shape.</p>
+<p><code>1+2+3+4 == Area of Squere</code></p>
+<p>Then we chose a random corner and find the midpoint between the corner and the point.<br>
+That is the easiest part of the code. Because has a simple math formula.<br>
+And when we put dots to midpoints, the script must be finished.</p>
+<p>After a while of this progression, I got shapes like these.</p>
+<p><p style="text-align:center;">
+    <img src="/blog/img/caos_exp.jpg" alt="Images"  />
+</p>
+</p>
+<h1 id="4-corner-problem">4+ Corner Problem</h1>
+<p>That algorithm is perfectly run at the triangle, but if the shape has 4 or more corners we&rsquo;ll see a miscorrect pattern.</p>
+<p><p style="text-align:center;">
+    <img src="/blog/img/caos_faulty.png" alt="unchanged algorithm with sqruare"  />
+</p>
+</p>
+<p>You can change the pattern by changing the corner order.<br>
+If we chose a different corner from the last process there won&rsquo;t appear a misspattern. <strong>(Example 2nd )</strong><br>
+Or you can dismiss the next corner <strong>(Example 3rd)</strong> or the next 2nd corner <strong>(Example 4th)</strong>.</p>
+</article>
+        
+
+        
+        
+        <nav role="navigation" class="flex-container bottom-menu">
+            
+<hr />
+<p>
+
+
+    
+
+    
+        
+            <a href="/blog">Blog</a>
+        
+    
+    
+        
+            &#183; 
+            <a href="/gallery">My Art Gallery</a>
+        
+            &#183; 
+            <a href="/about">About Me</a>
+        
+    
+    
+    
+        &#183; 
+        <a href="/">
+            Main
+        </a>
+    
+
+</p>
+        </nav>
+        
+        
+    </main>
+    
+    <footer class="flex-container footer">
+</footer>
+    
+    
+</body>
+
+</html>
